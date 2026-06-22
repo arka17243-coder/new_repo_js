@@ -1,0 +1,10 @@
+const account1 = 1234566;
+let accountid = 343643;
+var accountemail = "example.in";
+//account1 = 3;
+accountid = 345;
+accountemail ="exasmple.in";
+//console.log(account);
+console.log(accountid);
+console.log(accountemail);
+console.table([account1,accountemail,accountid]);
