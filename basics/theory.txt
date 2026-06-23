@@ -1,0 +1,28 @@
+JavaScript is a dynamically typed language. This means that the type checking process happens at runtime during the code's execution, rather than ahead of time during a compilation phase. 
+
+DEV Community
+ +2
+Key Characteristics of JavaScript's Dynamic Typing
+No Declared Types: You do not need to explicitly specify whether a variable is a string, number, or boolean when you declare it.
+Reassignable Value Types: A single variable can hold a number, and later be reassigned to hold a string or an object.
+Types Belong to Values: In JavaScript, variables do not have fixed types; only the values assigned to those variables have types. 
+
+DEV Community
+ +5
+javascript
+let data = 42;          // The data type is initially a Number
+data = "Hello World";   // Legally reassigned to a String type at runtime
+Use code with caution.
+Contrast with Other Types of Systems
+To understand how JavaScript operates, it helps to compare it to other typing disciplines:
+Dynamic vs. Static: Unlike JavaScript, statically typed languages (such as Java, C++, or Go) check types at compile time. Variables must be strictly defined with their data types, and those types cannot change. 
+
+DEV Community
+ +3
+Weak vs. Strong: JavaScript is also considered weakly typed. It implicitly performs "type coercion," allowing operations between different data types without throwing errors (for example, adding a number to a string 5 + "5" results in the string "55"). 
+
+Medium
+·Code & Cozy
+ +2
+The TypeScript Solution: Because JavaScript's dynamic nature can make large applications prone to unexpected runtime errors, developers frequently use TypeScript, which is a statically typed superset of JavaScript that catches type errors before the code runs. 
+
