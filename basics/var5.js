@@ -25,7 +25,13 @@ let myTimestamp = Date.now() //ms value number does not take parameter
 
 let newdate = new Date()
 //console.log(newdate.getDay())
-console.log(newdate.getFullYear())
+//console.log(newdate.getFullYear())
+newdate.toLocaleDateString('default',{
+        weekday: "long",
+        
+    })
+    console.log(newdate.toLocaleDateString())
+
 
 
 
