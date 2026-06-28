@@ -15,4 +15,4 @@ const arr1 = new Array(1,2,5,6)
 // console.log(arr1.includes(3)) 
 console.log(arr1.indexOf(3))
 
-//console.log()
+console.log()
