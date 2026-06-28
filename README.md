@@ -1,2 +1,2 @@
 # new_repo_js
-hritesh js 
+Javascript from Youtube 
