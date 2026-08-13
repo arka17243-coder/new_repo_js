@@ -42,4 +42,29 @@ newuser.loggedin = false
 
 
 
-console.log(newuser.hasOwnProperty('loggedin'))
+// console.log(newuser.hasOwnProperty('loggedin'))
+
+
+
+
+
+
+
+
+// object destructuring 
+const  course ={
+    cousename:"js",
+    price:"999",
+    courseInstructor:"rama"
+}
+
+// const {courseInstructor:ins} = course
+// console.log(ins)
+
+//json
+// {
+//   "  name": "arka",
+//     "coursename":"javascript"
+// }
+
+
