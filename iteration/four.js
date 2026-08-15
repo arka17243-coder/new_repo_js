@@ -1,13 +1,13 @@
+//for in loop 
 const myobj = {
     js :"javascript",
     cpp : "c++",
     rb : "ruby"
 }
+// for (const key in myobj) {
+//     console.log(key);     
+// }
 for (const key in myobj) {
-    console.log(key); 
-    
+    console.log(`${key} -> ${myobj[key]}`);        
 }
-for (const key in myobj) {
-    console.log(myobj[key]);    
-    
-}
+
