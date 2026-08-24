@@ -1,0 +1,20 @@
+document.getElementById('parameter') --> element
+doucment.getElementById('parameter').id --> show id
+document.getElementById('parameter').className  -->show class Name 
+document.getElementById('parameter').getAttribute('id')  -->show attribute Name 
+document.getElementById('parameter').getAttribute('class')  -->show attribute Name 
+document.getElementById('parameter').setAttribute('class','class_name')  -->set attribute Name 
+
+const title = document.getElementById('title')
+title.style.backgroundColor = "green"
+title.style.padding = "15px"
+
+title.textContent --> showing all content of the text 
+'Dom Learning Purposestest text'
+
+title.innerHTML --> showing inner html 
+'Dom Learning Purposes<span style="display: none;">test text</span>'
+
+title.innerText --> showing inertext 
+'Dom Learning Purposes'
+
