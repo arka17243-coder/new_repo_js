@@ -18,3 +18,30 @@ title.innerHTML --> showing inner html
 title.innerText --> showing inertext 
 'Dom Learning Purposes'
 
+document.querySelectorAll('li')
+NodeList(3) [li, li, li]0: li1: li2: lilength: 3[[Prototype]]: NodeList
+
+const templilist = document.querySelectorAll('li')
+
+
+
+templilist.style.color = 'green'
+
+templilist[0].style.color = 'green'
+'green'
+templilist[2].style.color = 'red'
+'red'
+const myh1  = document.querySelectorAll('h1')
+undefined
+myh1
+NodeList [h1#title.heading]
+
+
+templilist.forEach(function (l){l.style.backgroundColor = 'green'})
+// for nodelist
+allh2.forEach(function(h) {
+   h.style.color = 'red' ;
+   h.style.backgroundColor = "green";
+   h.style.padding = "10px"
+   h.style.borderRadius = "20px"
+})
