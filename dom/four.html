@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js basics</title>
+    <style>
+        .bg-black
+        {
+            background-color: black;
+            color: aqua;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    
+</body>
+<script>
+    const div1 = document.createElement('div')
+    const div2 = document.createElement('div')
+    div1.style.backgroundColor = "orange"
+    div1.style.padding = "10px"
+   div1.style.margin="10px"
+   div1.style.width="200px"
+   div1.style.height="200px"
+
+    div2.style.backgroundColor = "white"
+    div2.style.color = "red"
+    
+    div2.style.padding = "10px"
+   div2.style.margin="10px"
+    div1.innerText = "drogba"
+    div2.innerText = "gerrald"
+    document.body.appendChild(div1)
+    document.body.appendChild(div2)
+
+</script>
+</html>
