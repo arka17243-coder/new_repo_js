@@ -23,12 +23,54 @@
 // document.getElementById('owl').onclick = function(){
 //     alert('owl');
 // }
-document.getElementById('owl').addEventListener('click',function()
-{
-alert('owl clicked')
-},false)
 //attachevent 
 //jquery -on
 
+
+//type,timeStamp , defaultPrevented
+// target, toElement , srcElement , currentTarget 
+// clientX , clientY , screenX , screenY
+//altkey , ctrlkey , shiftKey , keyCode
+
+
+document.getElementById('images').addEventListener('click',function(e)
+{
+
+//console.log("Clicked inside the ul");
+},false)
+document.getElementById('owl').addEventListener('click',function(e)
+{
+
+  //console.log("Owl clicked");
+ //e.stopPropagation();// to stop propagation 
+},false)
+// document.getElementById('google').addEventListener('click',function(e){
+    
+//     e.preventDefault(); //to prevent default 
+//     e.stopPropagation();
+//     console.log('google clicked')
+// })
+
+
+document.querySelector('#images').addEventListener('click' ,function(e){
+console.log(e.target.tagName);
+
+if(e.target.tagName === 'IMG')
+    {
+
+    }
+
+//let removeit = e.target.parentNode;
+//removeit.remove();
+//removeit.parentNode.removeChild(removeit)
+
+
+
+},false)
+
+
 </script>
 </html>
+<!--  event propagation 
+  //event bubbling  -> bottom to up  , event capturing -> top to bottom element when true
+  //event bubbling , event capturing
